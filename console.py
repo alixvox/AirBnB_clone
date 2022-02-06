@@ -23,7 +23,6 @@ class HBNBCommand(cmd.Cmd):
     def emptyline(self):
         """
         This method Allows you to...
-        (ENTER ALL THE WAY THROUGH..)
         """
         pass
 
