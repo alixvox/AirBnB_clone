@@ -81,4 +81,3 @@ class FileStorage:
             for key, value in objs.items():
                 class_name = value["__class__"]
                 self.__objects[key] = BaseModel(**value)
-

@@ -5,7 +5,6 @@ This module contains class Review.
 from models.base_model import BaseModel
 
 
-
 class Review(BaseModel):
     """
     class Review inherits from BaseModel and contains
