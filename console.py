@@ -12,16 +12,16 @@ from models import storage
 class HBNBCommand(cmd.Cmd):
     """This class is the functionality of the console.
     """
-    intro = 'Welcome to the HBNB shell!  Type help or ? to list commands.\n'
+    # intro = 'Welcome to the HBNB shell!  Type help or ? to list commands.\n'
     prompt = '(hbnb) '
 
-    def do_EOF(self, line):
+    def do_EOF(self, *line):
         """EOF command to exit the program.
         Usage: CTR+D
         """
         return True
 
-    def do_quit(self, line):
+    def do_quit(self, *line):
         """Quit command to exit the program.
         Usage: quit
         """
