@@ -18,7 +18,7 @@ class BaseModel:
         """
         Initialization with kwargs key/value
         attributes, or a new uuid, and created_at and
-        updated_at datetimes.
+        updated_at datetimes.  
         """
         if kwargs:
             for key, value in kwargs.items():
